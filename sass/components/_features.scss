@@ -1,0 +1,10 @@
+.features {
+    @extend %section;
+    &__container {
+            @extend %container;
+        }
+}
+
+.features__title {
+    @extend %visibilyty-hidden;
+}

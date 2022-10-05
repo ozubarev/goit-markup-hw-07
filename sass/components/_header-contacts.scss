@@ -1,5 +1,5 @@
 .contacts {
-    @extend .navigation__list;
+    @extend .nav-list;
     margin-left: auto;
 }
 
@@ -8,7 +8,7 @@
 }
 
 .contacts__link {
-    @extend .navigation__link;
+    @extend .nav-list__link;
     &:hover, &:focus {
             color: $accent-color;
         }

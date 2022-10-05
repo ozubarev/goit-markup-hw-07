@@ -1,18 +1,14 @@
-.navigation {
+.nav-list {
+    @extend %list;
     display: flex;
-
-    &__list {
-        @extend %list;
-        display: flex;
-        align-items: center;
-    }
+    align-items: center;
 }
 
-.navigation__item:not(:last-child) {
+.nav-list__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.navigation__link {
+.nav-list__link {
     @extend %link;
     color: $title-text-color;
     font-weight: 500;
@@ -30,7 +26,7 @@
 }
 
 
-.navigation__link--current {
+.nav-list__link--current {
     position: relative;
     display: block;
     color: $accent-color;

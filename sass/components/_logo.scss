@@ -9,7 +9,9 @@
     &__text {
         color: $accent-color;
     }
-    
+    &--white {
+        color: $white-color;
+    }
 }
 
 .header__logo {
@@ -17,8 +19,4 @@
     display: block;
     padding-top: 24px;
     padding-bottom: 25px;
-}
-
-.logo--white {
-    color: $white-color;
 }

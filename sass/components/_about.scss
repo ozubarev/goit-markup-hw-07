@@ -1,9 +1,6 @@
 .about {
     padding-top: 0;
     padding-bottom: 94px;
-    &__container {
-        @extend %container
-    }
     &__title {
         color: $title-text-color;
         font-weight: 700;

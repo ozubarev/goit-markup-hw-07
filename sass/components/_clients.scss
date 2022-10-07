@@ -1,8 +1,5 @@
 .clients {
     @extend %section;
-    &__container {
-        @extend %container;
-    }
     &__title {
         @extend .about__title;
     }
@@ -27,12 +24,12 @@
         &:hover, &:focus {
             border-color: $accent-color;
         }
+        &:hover .clients-list__icon, &:focus .clients-list__icon {
+                    fill: $accent-color;
+                }
     }
     &__icon {
         fill: $main-icon-color;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        &:hover, &:focus {
-            fill: $accent-color;
-        }
     }
 }

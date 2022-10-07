@@ -1,8 +1,5 @@
 .features {
     @extend %section;
-    &__container {
-            @extend %container;
-        }
     &__title {
         @extend %visibilyty-hidden;
     }

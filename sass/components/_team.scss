@@ -1,9 +1,6 @@
 .team {
     @extend %section;
     background-color: $background-color-team;
-    &__container {
-        @extend %container;
-    }
     &__title {
         @extend .about__title;
     }

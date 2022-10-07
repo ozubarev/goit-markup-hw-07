@@ -2,9 +2,9 @@
     background-color: $background-color-footer;
     padding-top: 60px;
     padding-bottom: 60px;
-    &__container {
-        @extend %container;
-        display: flex;
-        align-items: baseline;
-    }
+}
+
+.container--flex {
+    display: flex;
+    align-items: baseline;
 }
